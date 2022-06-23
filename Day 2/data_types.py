@@ -4,4 +4,3 @@ if type(number) == str:
     print(int(number[0]) + int(number[1]))
 
 # it's just a concatenation exercise, don't worry :)
-

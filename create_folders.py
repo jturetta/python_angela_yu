@@ -11,4 +11,3 @@ def createFolder(dirName):
             i += 1
 
 createFolder('Day ')
-

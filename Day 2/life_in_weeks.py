@@ -9,4 +9,3 @@ weeks_remaining = ageExpectation * 52
 days_remaining = ageExpectation * 365
 
 print(f'You have {age} years now, so you have {months_remaining} months_remaining, {weeks_remaining} weeks_remaining or {days_remaining} days_remaining left.')
-

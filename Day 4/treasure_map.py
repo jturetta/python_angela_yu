@@ -17,9 +17,9 @@ In the starting code, we have used new lines (\n) to format the three rows into 
 This is to try and simulate the coordinates on a real map. 
 '''
 
-row1 = ["⬜️","⬜️","⬜️"]
-row2 = ["⬜️","⬜️","⬜️"]
-row3 = ["⬜️","⬜️","⬜️"]
+row1 = ["⬜️", "⬜️", "⬜️"]
+row2 = ["⬜️", "⬜️", "⬜️"]
+row3 = ["⬜️", "⬜️", "⬜️"]
 
 map = [row1, row2, row3]
 
@@ -34,4 +34,3 @@ selected_row = map[vertical - 1]
 selected_row[horizontal - 1] = 'X'
 
 print(f"{row1}\n{row2}\n{row3}")
-

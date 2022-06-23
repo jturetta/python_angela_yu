@@ -4,14 +4,14 @@ from hangman_words import word_list
 from hangman_art import stages, logo
 
 print(logo)
-print(' ') # just for space between logo and first line
+print(' ')  # just for space between logo and first line
 
 lifes = 7
 guesses = 0
 correct_letters = 0
 
 chosen_word = random.choice(word_list)
-#print(chosen_word)
+# print(chosen_word)
 
 display = []
 for letter in chosen_word:

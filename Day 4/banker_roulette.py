@@ -11,6 +11,6 @@ names_input = input("Tell everybody\s name, separated by a coma: ")
 
 names = names_input.split(", ")
 
-chosen = names[random.randint(0, len(names) -1)]
+chosen = names[random.randint(0, len(names) - 1)]
 
 print(f'{chosen} is going to buy the meal today!')

@@ -4,13 +4,12 @@ total_students = 0
 
 for height in student_heights:
     total_height += int(height)
-    
+
 for student in student_heights:
     total_students += 1
 
 average_height = round(total_height / total_students)
 print(f'The average height is {average_height} cm.')
-
 
 '''
 
@@ -23,5 +22,3 @@ average_height = round(sum(student_heights) / len(student_heights))
 print(f'The average_height is {average_height} cm.')
 
 '''
-
-

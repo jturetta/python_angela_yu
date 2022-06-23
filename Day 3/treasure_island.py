@@ -73,11 +73,11 @@ congratulations = ('''
 ''')
 
 print('Welcome to Treasure Island.')
-print('Your mission is to find the treasure.') 
+print('Your mission is to find the treasure.')
 
 left_right = input('Left or Right?').lower()
 
-if left_right == 'left': 
+if left_right == 'left':
     swim_or_wait = input('Swim or Wait?').lower()
     if swim_or_wait == 'wait':
         each_door = input('Wich door? (RED / BLUE / YELLOW)').lower()

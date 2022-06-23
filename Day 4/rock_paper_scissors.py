@@ -10,7 +10,7 @@ rock = '''
 
 '''
 
-paper =  '''
+paper = '''
    _______
 ---'   ____)____
           ______)
@@ -32,7 +32,7 @@ scissor = '''
 
 player = input('What is your play? (Rock, Paper or Scissor)? \n').lower()
 
-computer = random.randint(1,3)
+computer = random.randint(1, 3)
 if computer == 1:
     computer = 'rock'
 elif computer == 2:
