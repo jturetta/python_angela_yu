@@ -1,5 +1,6 @@
 import turtle as t
 import random
+from datetime import time
 
 tim = t.Turtle()
 
@@ -15,13 +16,12 @@ colors = [
 ]
 
 
-def draw_polygon(polygon_sides):
-    polygon_angle = 360 / polygon_sides
-    for _ in range(polygon_sides):
-        tim.forward(100)
-        tim.right(polygon_angle)
+directions = [0, 90, 180, 270]
+tim.pensize(15)  # increase the size of the pen
+tim.speed("fastest")  # increase the speed of the turtle
 
 
-for i in range(3, 9):
+for _ in range(200):
     tim.color(random.choice(colors))
-    draw_polygon(i)
+    tim.forward(30)
+    tim.setheading(random.choice(directions))
