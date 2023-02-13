@@ -2,6 +2,17 @@ import turtle as t
 
 tim = t.Turtle()
 
+colors = [
+    "CornflowerBlue",
+    "DarkOrchid",
+    "IndianRed",
+    "DeepSkyBlue",
+    "LightSeaGreen",
+    "wheat",
+    "SlateGray",
+    "SeaGreen",
+]
+
 
 def draw_polygon(polygon_sides):
     polygon_angle = 360 / polygon_sides
