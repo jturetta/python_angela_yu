@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 20,
+            "activePatchIndex": 25,
             "patches": [
                 {
                     "date": 1676254806062,
@@ -88,6 +88,26 @@
                 {
                     "date": 1676255388845,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     \"SeaGreen\",\n ]\n \n \n-# 0 degrees is east, 90 is north, 180 is west, 270 is south\n+\n directions = [0, 90, 180, 270]\n \n tim.pensize(15)  # increase the size of the pen\n tim.speed(\"fastest\")  # increase the speed of the turtle\n"
+                },
+                {
+                    "date": 1676319889401,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,19 +7,17 @@\n colors = [\n     \"CornflowerBlue\",\n     \"DarkOrchid\",\n     \"IndianRed\",\n-    \"DeepSkyBlue\",\n+    \"DeepSkyBlue\n     \"LightSeaGreen\",\n     \"wheat\",\n     \"SlateGray\",\n     \"SeaGreen\",\n ]\n \n \n-\n directions = [0, 90, 180, 270]\n-\n tim.pensize(15)  # increase the size of the pen\n tim.speed(\"fastest\")  # increase the speed of the turtle\n \n \n"
+                },
+                {
+                    "date": 1676319905281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n colors = [\n     \"CornflowerBlue\",\n     \"DarkOrchid\",\n     \"IndianRed\",\n-    \"DeepSkyBlue\n+    \"DeepSkyBlue   \n     \"LightSeaGreen\",\n     \"wheat\",\n     \"SlateGray\",\n     \"SeaGreen\",\n"
+                },
+                {
+                    "date": 1676320059016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n colors = [\n     \"CornflowerBlue\",\n     \"DarkOrchid\",\n     \"IndianRed\",\n-    \"DeepSkyBlue   \n+    \"DeepSkyBlue\n     \"LightSeaGreen\",\n     \"wheat\",\n     \"SlateGray\",\n     \"SeaGreen\",\n"
+                },
+                {
+                    "date": 1676320138526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n colors = [\n     \"CornflowerBlue\",\n     \"DarkOrchid\",\n     \"IndianRed\",\n-    \"DeepSkyBlue\n+    \"DeepSkyBlue,\n     \"LightSeaGreen\",\n     \"wheat\",\n     \"SlateGray\",\n     \"SeaGreen\",\n"
+                },
+                {
+                    "date": 1676322394132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n colors = [\n     \"CornflowerBlue\",\n     \"DarkOrchid\",\n     \"IndianRed\",\n-    \"DeepSkyBlue,\n+    \"DeepSkyBlue\",\n     \"LightSeaGreen\",\n     \"wheat\",\n     \"SlateGray\",\n     \"SeaGreen\",\n"
                 }
             ],
             "date": 1676254806062,
